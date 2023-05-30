@@ -1,0 +1,27 @@
+.heroBanner {
+  #carouselExampleCaptions {
+    .carousel-inner {
+      .carousel-item {
+        position: relative;
+        img {
+          height: 100vh;
+        }
+        .carousel-caption {
+          position: absolute;
+          bottom: 350px;
+          display: flex;
+          flex-direction: column;
+          row-gap: 70px;
+          .seeProject {
+            border: 1px solid #d73e4d;
+            color: white;
+            padding: 15px 10px;
+            &:hover {
+              background-color: #d73e4d;
+            }
+          }
+        }
+      }
+    }
+  }
+}

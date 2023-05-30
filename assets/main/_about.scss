@@ -1,0 +1,50 @@
+.about {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    .top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .bottom {
+      .row {
+        .col-lg-4 {
+          .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 200px;
+              height: 150px;
+              border-radius: 50%;
+            }
+            .card-body {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              .card-buttons {
+                a {
+                  color: #d73e4d;
+                  border: 1px solid #d73e4d;
+                  background-color: transparent;
+                  border-radius: 0px;
+                  &:hover {
+                    color: white;
+                    background-color: #d73e4d;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

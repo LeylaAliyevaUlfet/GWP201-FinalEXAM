@@ -1,0 +1,82 @@
+header {
+  background-color: rgba($color: #000000, $alpha: 0.5);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  padding: 20px 0.5%;
+
+  .mobileNav {
+    display: none;
+    .logo {
+      display: flex;
+      justify-content: space-between;
+      .fa-x {
+        color: white;
+      }
+    }
+    .nonStrapNavMob {
+      .nonStrapUlMob {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        li {
+          a {
+            font-size: 20px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .desktopNav {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .barIcon {
+        a {
+          i {
+            display: none;
+          }
+        }
+      }
+      .nonStrapNav {
+        .nonStrapUl {
+          display: flex;
+          column-gap: 30px;
+          #home {
+            a {
+              color: #d73e3c;
+            }
+          }
+          li {
+            a {
+              color: white;
+              &:hover {
+                color: #d73e3c;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .desktopNav {
+      .container {
+        .barIcon {
+          display: block;
+          a {
+            i {
+              color: white;
+              display: block;
+            }
+          }
+        }
+        .nonStrapNav {
+          display: none;
+        }
+      }
+    }
+  }
+}

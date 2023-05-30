@@ -1,0 +1,29 @@
+{
+  "princess": [
+    {
+      "name": "Flora",
+      "info": "love flowers",
+      "age": "20",
+      "id": 1
+    },
+    {
+      "name": "Bloom mal",
+      "info": "love flowers",
+      "age": "211",
+      "id": 2
+    },
+    {
+      "name": "Hakeem Maxwell",
+      "info": "Non est expedita ni",
+      "age": "40",
+      "id": 4
+    },
+    {
+      "name": "Nana",
+      "info": "nem",
+      "age": "12",
+      "id": 5
+    }
+  ],
+  "favorites": []
+}
